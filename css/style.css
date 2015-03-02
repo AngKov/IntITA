@@ -124,6 +124,162 @@ p, h1, h2, h3, h4, html{
 
 /** steps style **/
 
+/*************registration*************/
+.fon
+{
+    width:auto;
+    height: 675px;
+    position:relative;
+    margin-top:0px;
+    margin-left:auto;
+    margin-right:auto;
+    border:none;
+    z-index: 2;
+    /*background:url("/IntITA/css/images/Fon.jpg") no-repeat;;*/
+}
+#fon{
+    /*z-index: 0;
+    ("/IntITA/css/images/fon.png") no-repeat;*/
+
+ }
+ .textFon{
+     position:absolute;
+     width:390px;
+     height:100px;
+     margin-top:5px;
+     margin-left:305px;
+     /*background-color:none;*/
+     padding-top:0px;
+     line-height:1;
+     text-align:center;
+     font-family:Calibri;
+     color: #ffffff;
+ }
+ .formFon{
+     position:absolute;
+     width:548px;
+     height:428px;
+     margin-top:145px;
+     margin-left:206px;
+     background:url("/IntITA/css/images/formFon.png");
+
+ }
+ .zagolovok
+ {
+     font-size:45px;
+     margin-left: 300px
+ margin-top:0px;
+     margin-bottom:2px;
+ }
+ .zagolovok2
+ {
+     font-size:25px;
+     margin-top:0px;
+ }
+ .email-password{
+     width:440px;
+     height:110px;
+     margin-left:50px;
+     margin-top:50px;
+
+
+ }
+ .email1{
+     float:left;
+     width:440px;
+     height:50px;
+     margin-bottom:10px;
+     border: 1px solid #999;
+     border-radius: 7px;
+     padding-left:20px;
+     font:22px Arial, Helvetica, sans-serif;
+     color:black;
+     font-size: 16pt;
+ }
+ .password1{
+     float:left;
+     width:440px;
+     height:50px;
+     border-radius: 7px;
+     border: 1px solid #999;
+     padding-left:20px;
+     font:22px Arial, Helvetica, sans-serif;
+     color:black;
+     font-size: 16pt;
+
+ }
+ .email1:hover {  /* при наведении курсора мышки */
+    box-shadow: 0 0 0 1px #7eb4ea inset, 0 1px 2px rgba(0,0,0,.2) inset;
+}
+.email1:focus {  /* при фокусе, когда поле input активно */
+    outline: none;
+    box-shadow: 0 0 0 1px #7eb4ea inset, 0 1px 2px rgba(0,0,0,.2) inset, 0 0 10px rgba(35,146,243,.5);
+    transition: .2s linear;
+}
+.password1:hover {  /* при наведении курсора мышки */
+    box-shadow: 0 0 0 1px #7eb4ea inset, 0 1px 2px rgba(0,0,0,.2) inset;
+}
+.password1:focus {  /* при фокусе, когда поле input активно */
+    outline: none;
+    box-shadow: 0 0 0 1px #7eb4ea inset, 0 1px 2px rgba(0,0,0,.2) inset, 0 0 10px rgba(35,146,243,.5);
+    transition: .2s linear;
+}
+.extendedRegistration{
+    width:440px;
+    height:25px;
+    background-color:#ffffff;
+    margin-top:15px;
+    font:18px Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    margin-left:50px;
+    padding-left:20px;
+}
+.extendedRegistration a{
+    color:#4b75a4;
+    text-decoration:none;
+}
+.extendedRegistration a:hover {  /* при наведении курсора мышки */
+    outline: none;
+    color:#114988;
+    transition: .2s linear;
+}
+.button1{
+    width:220px;
+    height:55px;
+    background-color:#4b75a4;
+    margin-top:10px;
+    margin-left:150px;
+    border:solid 2px #ffffff;
+    border-radius: 6px;
+    background: linear-gradient(#4b75a4, #2b4a6c);
+    font:30px Arial, Helvetica, sans-serif;
+    color:#ffffff;
+}
+.button1:hover {  /* при наведении курсора мышки */
+    outline: none;
+    box-shadow: 0 0 20px rgba(35,146,243,.5);
+    transition: .2s linear;
+}
+.line{
+    width:440px;
+    height:1px;
+    margin-left:50px;
+    margin-top:15px;
+}
+.social{
+    width:400px;
+    height:16px;
+    margin-left:70px;
+    margin-top:-150px;
+    font:16px Arial, Helvetica, sans-serif;
+    color:#959595;
+}
+.image{
+    width:410px;
+    height:50px;
+    margin-left:70px;
+    margin-top:20px;
+}
 
 
 

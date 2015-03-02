@@ -160,3 +160,11 @@ $stepsArray=array($step1,$step2,$step3,$step4,$step5);
 ?>
 </div>
 
+    <div>
+
+        <img src="<?php echo Yii::app()->request->baseUrl; ?>/css/images/fon.jpg">
+        <?php //echo Yii::app()->request->baseUrl; ?>
+
+    </div>
+
+
